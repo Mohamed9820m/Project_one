@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.image-list {
+   display: flex;
+   justify-content: space-between;
+   list-style: none;
+   padding: 0;
+ }
+ 
+ .image-list2 li {
+   margin-right: 30px; /* space between each image */
+ }
+ .image-list2 {
+   display: flex;
+   justify-content: space-between;
+   list-style: none;
+   padding: 0;
+ }
+ 
+ .image-list2 li {
+   margin-right: 30px; /* space between each image */
+ }
+#heart{
+  width: 70px;
+  height: 70px; 
+  transform: rotate(360deg);
+  gap: 5px;
+  
+}
+    
+
+body {
+    height : 100vh;
+    display : flex;
+    align-items : center;
+    justify-content : center ;
+    background : radial-gradient(rgb(100, 23, 82),black) ;
+}
+
+
+
+.images img {
+    width : 150px;
+    margin-left:-35px
+    
+}
+
+.container
+{
+    padding: 2rem 5rem;
+    border-radius: 14px;
+    background-image: url("./2210_w015_n003_1027b_p15_1027.jpg");
+    box-shadow : 0 5px 10px rgb(102, 5, 158);
+    
+}
+.images
+{
+    display : flex;
+    column-gap: 30rem ;  
+}
+
+.player img {
+   transform : rotate(90deg) rotateY(180deg);
+}
+
+.computer img {
+    transform : rotate(-90deg);
+    margin-right: -35px;
+ }
+
+ .result
+ {
+   text-align: center;
+   font-size: 2rem;
+   color : #9616ce;
+   margin-top : 1.5rem;
+ }
+
+ #option1 img {
+    width : 80px ;
+    
+ }
+ #option2 img {
+    width : 80px;
+    transform : rotate(180deg) 
+ }
+ #option3 img {
+    width : 80px
+ }
+
+ .player_option  {
+    display: flex;
+    align-items: center;
+    margin-top: 2.5rem;
+    justify-content: space-between;
+    
+    
+  }
+
+  .player_option img {
+   display : flex ;
+   flex-direction: column;
+   align-items: center ;
+   opacity: 0.5;
+   cursor: pointer;
+   transition: opacity 0.3s ease;
+  }
+
+  .player_option1{
+   background-color: transparent;
+   border: none;
+  }
+
+ .player_option p {
+   color: #7d2ae8;
+   font-size: 1.235rem;
+   margin-top: 1rem;
+   pointer-events: none;
+ }
+
+.player_option1 :hover{
+   opacity:1
+}
+
+#nice
+{
+   transform: rotate(90) scale(0.5);
+   position: absolute;
+   top: -4px;
+   left: 604px; 
+   opacity: 1% ;
+}
+#tochange2{
+margin-left: 50px;
+}
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
